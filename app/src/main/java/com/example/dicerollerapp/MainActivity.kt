@@ -30,14 +30,14 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(view: View?) {
-        val rolling = Random.nextInt(1, 7)
+        val rolling = Random.nextInt(1, 6)
         when (rolling) {
-            1 -> imageView.setImageResource(R.drawable.dice1)
-            2 -> imageView.setImageResource(R.drawable.dice2)
-            3 -> imageView.setImageResource(R.drawable.dice3)
-            4 -> imageView.setImageResource(R.drawable.dice4)
-            5 -> imageView.setImageResource(R.drawable.dice5)
-            6 -> imageView.setImageResource(R.drawable.dice6)
+            1 -> imageView.setImageResource(R.drawable.dice_1)
+            2 -> imageView.setImageResource(R.drawable.dice_2)
+            3 -> imageView.setImageResource(R.drawable.dice_3)
+            4 -> imageView.setImageResource(R.drawable.dice_4)
+            5 -> imageView.setImageResource(R.drawable.dice_5)
+            6 -> imageView.setImageResource(R.drawable.dice_6)
         }
     }
 }
